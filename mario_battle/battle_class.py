@@ -19,10 +19,10 @@ class MarioBattle:
         player2_total_time: A float specifying the total time (in
             seconds) taken by the second player.
         courses: A dictionary containing the courses that are eligible
-            to be played. This, following the schema of
-            COURSE_DICTIONARY from constants.py, specified for each
-            course number, what the name of the course is and whether it
-            has already been played.
+            to be played. Follows the schema of COURSE_DICTIONARY from
+            constants.py and specifies for each course number what the
+            name of the course is and whether it has already been
+            played.
         num_rounds: An integer specifying the total number of rounds.
         results: A list containing Round objects representing the
             results of each round.
